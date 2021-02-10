@@ -21,6 +21,8 @@ const Register = ({ history }) => {
       handleCodeInApp: true,
     };
 
+    console.log(process.env.REACT_APP_REGISTER_REDIRECT_URL);
+
     await auth.sendSignInLinkToEmail(email, config);
     toast.success(
       `Email is send to ${email}. Click the link to complete your registration`
