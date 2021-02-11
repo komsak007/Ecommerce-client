@@ -16,12 +16,14 @@ const SubList = () => {
 
   const showSubs = () =>
     subs.map((s) => (
+      <Link to={`/sub/${s.slug}`}>
       <div
         key={s._id}
         className="col btn btn-outlined-primary btn-lg btn-block btn-raised m-3"
       >
-        <Link to={`/sub/${s.slug}`}>{s.name}</Link>
+        {s.name}
       </div>
+      </Link>
     ));
 
   return (
