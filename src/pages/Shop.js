@@ -28,11 +28,9 @@ const Shop = () => {
   const [subs, setSubs] = useState([]);
   const [sub, setSub] = useState("");
   const [brands, setBrands] = useState([
-    "Apple",
-    "Samsung",
-    "Microsoft",
-    "Lenovo",
-    "ASUS",
+    "Honda",
+    "Yamaha",
+    "Suzuki",
   ]);
   const [brand, setBrand] = useState("");
   const [colors, setColors] = useState([
@@ -41,6 +39,7 @@ const Shop = () => {
     "Silver",
     "White",
     "Blue",
+    "Orenge"
   ]);
   const [color, setColor] = useState("");
   const [shipping, setShipping] = useState("");
