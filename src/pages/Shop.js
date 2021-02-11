@@ -175,10 +175,10 @@ const Shop = () => {
 
   const showStars = () => (
     <div className="pr-4 pl-4 pb-2">
-      <Star starClick={handleStarClick} numberOfStars={5} />
-      <Star starClick={handleStarClick} numberOfStars={4} />
-      <Star starClick={handleStarClick} numberOfStars={3} />
-      <Star starClick={handleStarClick} numberOfStars={2} />
+      <Star starClick={handleStarClick} numberOfStars={5} /> <br/>
+      <Star starClick={handleStarClick} numberOfStars={4} /> <br/>
+      <Star starClick={handleStarClick} numberOfStars={3} /> <br/>
+      <Star starClick={handleStarClick} numberOfStars={2} /> <br/>
       <Star starClick={handleStarClick} numberOfStars={1} />
     </div>
   );
