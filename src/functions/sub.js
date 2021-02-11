@@ -4,7 +4,7 @@ export const getSubs = async () =>
   axios.get(`${process.env.REACT_APP_API}/subs`);
 
 export const getSub = async (slug) =>
-  axios.get(`${process.env.REACT_APP_API}/sub/${slug}`);
+  await axios.get(`${process.env.REACT_APP_API}/sub/${slug}`);
 
 export const removeSub = async (slug, authtoken) =>
   axios.delete(`${process.env.REACT_APP_API}/sub/${slug}`, {
